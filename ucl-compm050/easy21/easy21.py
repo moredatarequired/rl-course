@@ -78,6 +78,9 @@ class State:
             return -1
 
 
+actions = ("hit", "stick")
+
+
 def step(state, action):
     if state.terminated:
         return state, 0
